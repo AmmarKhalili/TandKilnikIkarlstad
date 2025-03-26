@@ -1,0 +1,32 @@
+.react-calendar {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.react-calendar__tile {
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  transition: background 0.2s ease-in-out;
+}
+
+.react-calendar__tile--now {
+  background: #ffdd57;
+  color: white;
+  border-radius: 8px;
+}
+
+.react-calendar__tile--active {
+  background: #007bff ;
+  color: white ;
+}
+
+.react-calendar__tile:hover {
+  background: #f0f0f0;
+}

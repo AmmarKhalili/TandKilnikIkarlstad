@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/*  standardfont för hela projektet */
+body {
+  font-family: 'Poppins', sans-serif;
+  
+  /*width: 75%;
+  margin: 0 auto;*/
+}
+
+
+
